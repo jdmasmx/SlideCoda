@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+
+  Coda Slider 3.0
+  Kevin Batdorf
+
+  http://kevinbatdorf.github.com/codaslider
+
+-->
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Codaslider : JQuery Slider Plugin" />
+
+   
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/coda-slider.css">
+
+   
+    <style>h1{margin:100px;}</style>
+
+  
+    <script src="./js/jquery-1.7.2.min.js"></script>
+    <script src="./js/jquery-ui-1.8.20.custom.min.js"></script>
+    <script src="./js/jquery.coda-slider-3.0.min.js"></script>
+
+    <title>Coda Slider 3.0</title>
+
+    <script>
+    $(function(){
+      $('#slider-id').codaSlider({
+        autoSlide: true,
+        dynamicTabs: false,
+        autoHeight: false,
+        slideEaseDuration: 500
+     });
+     
+    });
+
+    </script> 
+  </head>
+  <body>
+
+    <div class="coda-slider"  id="slider-id">
+      <div>
+        <img src="http://farm7.staticflickr.com/6064/6131892100_61cbd4917c_z.jpg" width="800">
+      </div>
+      <div>
+        <img src="http://farm7.staticflickr.com/6064/6131892100_61cbd4917c_z.jpg" width="800">
+      </div>
+      
+   
+     
+    </div>
+
+  </body>
+</html>

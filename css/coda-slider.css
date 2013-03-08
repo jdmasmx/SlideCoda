@@ -1,0 +1,141 @@
+body {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+
+}
+/***********************************************************************
+  jQuery Coda-Slider v3.0 - kevinbatdorf.github.com/codaslider
+  Copyright (c) 2012 Kevin Batdorf
+  This plugin available for use in all personal or commercial projects under both MIT and GPL licenses.
+************************************************************************/
+/********************************************
+SASS stylesheet.
+
+No idea what CSS preprocessing is all about? No problem... just use the style.css file instead.
+If you want to learn more, check out this article by Chris Coyier
+
+css-tricks.com/musings-on-preprocessing/
+
+********************************************/
+
+.coda-slider-wrapper {
+  /*******************************************************
+  *
+  * Most common stuff you'll need to change 
+  * will be below this line.
+  *
+  ********************************************************/
+  /******************************************************
+  * 
+  * Main wrapper padding 
+  *contenedor principal
+  *******************************************************/
+  /*padding: 20px 0; */
+ /* background-color: #000;*/
+  margin: 0 auto 0 auto;
+  
+}
+  
+  .coda-slider-wrapper .coda-slider {
+   
+    width: 800px; 
+  
+  }
+    
+    .coda-slider-wrapper .coda-slider .panel {
+     
+      width: 800px; 
+      background-color: yellow;
+ 
+   
+    }
+
+
+      
+      .coda-slider-wrapper .coda-slider .panel .panel-wrapper {
+     
+        padding: 0px; 
+      }
+  
+    
+    .coda-slider-wrapper .coda-nav-left a, .coda-slider-wrapper .coda-nav-right a {
+     
+      margin-top: 100px;
+      width: 80px; 
+    }
+    .coda-slider-wrapper .coda-nav-left a {
+      color: red;
+         }
+    .coda-slider-wrapper .coda-nav-right a{
+      color: red;
+    }
+  
+
+
+/**********************************************************************
+*
+* Don't change anything below here unless you know what you're doing 
+*
+***********************************************************************/
+
+.coda-slider-wrapper {
+  /************************************************
+  * 
+  * Wrapper styles 
+  *
+  *************************************************/
+  clear: both;
+  overflow: auto; 
+}
+  
+  .coda-slider-wrapper .coda-slider {
+    /************************************************
+    * 
+    * slider styles 
+    *
+    *************************************************/
+    float: left;
+    overflow: hidden;
+    position: relative; 
+  }
+    
+    .coda-slider-wrapper .coda-slider .panel-container {
+      /************************************************
+      * 
+      * Panel container styles 
+      *
+      *************************************************/
+      position: relative; 
+    }
+      
+      .coda-slider-wrapper .coda-slider .panel-container .panel {
+        /************************************************
+        * 
+        * Panel styles 
+        *
+        *************************************************/
+        display: block;
+        float: left; 
+      }
+  
+  
+  
+  .coda-slider-wrapper .coda-nav-left, .coda-slider-wrapper .coda-nav-right {
+    /************************************************
+    * 
+    * Html arrows 
+    *
+    *************************************************/
+    float: left; 
+  }
+    
+    .coda-slider-wrapper .coda-nav-left a, .coda-slider-wrapper .coda-nav-right a {
+      /************************************************
+      * 
+      * Html arrow styles 
+      *
+      *************************************************/
+      display: block;
+      text-align: center;
+      text-decoration: none; 
+    }
